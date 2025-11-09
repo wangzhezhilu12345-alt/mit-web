@@ -1,0 +1,11 @@
+.navTitle {
+  color: var(--blue); /*这里是取变量*/
+  font-size: 20px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.navContainer {
+  background-color: var(--primary);
+  padding: 8px 16px;
+}

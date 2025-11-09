@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --primary: #396dff;
+  --blue: #66ccff;
+  --grey: #f7f7f7;
+  --white: #ffffff;
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+}
+
+body {
+  font-family: "Open Sans", "sans-serif";
+  margin: 0;
+}
+
+.u-textCenter {
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: var(--m) auto;
+  object-fit: cover;
+}
+
+.u-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.boxcontainer {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.infoBox {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.counterBox {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 8px auto;
+  width: 100px;
+}
+
+.counterValue {
+  font-size: 32px;
+  margin: 0;
+}
